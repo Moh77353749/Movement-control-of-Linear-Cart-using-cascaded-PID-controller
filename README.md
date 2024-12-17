@@ -53,3 +53,23 @@ Limit Switch: Signals the home position for position control.
 
 
 
+📊 System Performance & Parameter Estimation
+
+Data Collection: Collected data from the system to analyze position, velocity, and control response.
+
+Parameter Estimation: Used performance data to fine-tune the following parameters:
+
+Mass of cart (m): Estimated using experimental tests.
+
+Breakaway friction torque: Calculated using motor current and torque constant.
+
+Armature resistance (Ra): Determined experimentally by applying voltage and measuring current.
+
+Motor inductance (L): Estimated through system response.
+
+Motor inertia (J): Estimated from system dynamics.
+
+Viscous friction coefficient (b): Tuned using system performance analysis.
+
+
+
